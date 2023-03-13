@@ -9,35 +9,35 @@ public class FP01Functional {
         List<String> courses =
                 List.of("Spring", "Spring Boot", "API", "Microservices", "AWS","PCF", "Azure","Docker","Kubernetes");
 
-//        System.out.println();
-//        System.out.println("All number in list");
-//        printAllNumbersInListFunctional(numbers);
-//        System.out.println();
-//        System.out.println("Even numbers in list with method reference");
-//        printEvenNumbersInListFunctional(numbers);
-//        System.out.println();
-//        System.out.println("Even numbers in list with lambda");
-//        printEvenNumbersInListFunctionalWithLambdas(numbers);
-//        System.out.println();
-//        System.out.println("Squares of even numbers with lambdas");
-//        printSquaresOfEvenNumbersInListFunctionalWithLambdas(numbers);
-//        System.out.println();
-//        System.out.println("Odd numbers with lambdas");
-//        printOddNumberInListFunctionalWithLambdas(numbers);
-//        System.out.println();
-//        System.out.println("Cubes of odd numbers");
-//        printCubesOfOddNumbersFunctional(numbers);
+        System.out.println();
+        System.out.println("All number in list");
+        printAllNumbersInListFunctional(numbers);
+        System.out.println();
+        System.out.println("Even numbers in list with method reference");
+        printEvenNumbersInListFunctional(numbers);
+        System.out.println();
+        System.out.println("Even numbers in list with lambda");
+        printEvenNumbersInListFunctionalWithLambdas(numbers);
+        System.out.println();
+        System.out.println("Squares of even numbers with lambdas");
+        printSquaresOfEvenNumbersInListFunctionalWithLambdas(numbers);
+        System.out.println();
+        System.out.println("Odd numbers with lambdas");
+        printOddNumberInListFunctionalWithLambdas(numbers);
+        System.out.println();
+        System.out.println("Cubes of odd numbers");
+        printCubesOfOddNumbersFunctional(numbers);
 
-//
-//        System.out.println();
-//        System.out.println("Courses in list");
-//        printCoursesInListFunctional(courses);
-//        System.out.println();
-//        System.out.println("Courses with the word spring");
-//        printCoursesContainingSpringFunctional(courses);
-//        System.out.println();
-//        System.out.println("Courses with at least 4 letters");
-//        printCoursesHasAtLeast4LettersFunctional(courses);
+
+        System.out.println();
+        System.out.println("Courses in list");
+        printCoursesInListFunctional(courses);
+        System.out.println();
+        System.out.println("Courses with the word spring");
+        printCoursesContainingSpringFunctional(courses);
+        System.out.println();
+        System.out.println("Courses with at least 4 letters");
+        printCoursesHasAtLeast4LettersFunctional(courses);
         System.out.println();
         System.out.println("Number of characters in each course");
         printNumberOfCharactersInEachCourseName(courses);
